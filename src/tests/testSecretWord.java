@@ -25,8 +25,18 @@ public class testSecretWord {
 	}
 
 	@Test
-	public void testConstruct() throws Exception{
-		SecretWord s = new SecretWord(2);
+	public void testConstructThreeLetters() throws Exception{
+		try{
+			SecretWord s = new SecretWord(3);
+			fail();
+		} catch(Exception e){
+			
+		}
+	}
+	
+	@Test
+	public void testConstructFourLetters() throws Exception{	
+			SecretWord s = new SecretWord(4);
 	}
 
 }
