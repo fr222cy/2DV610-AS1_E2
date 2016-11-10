@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 package tests;
 
 import static org.junit.Assert.*;
@@ -6,9 +9,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import model.User;
+/**
+ * @author filip
+ *
+ */
+public class testSecretWord {
 
-public class testUser {
 
 	@Before
 	public void setUp() throws Exception {
@@ -19,14 +25,8 @@ public class testUser {
 	}
 
 	@Test
-	public void test() {
-	
+	public void should(){
 		
-	}
-	
-	public User generateUser(){
-		User user = new User("test", "123");
-		return user;
 	}
 
 }
