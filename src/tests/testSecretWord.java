@@ -2,7 +2,7 @@
  * 
  */
 package tests;
-
+import app.SecretWord;
 import static org.junit.Assert.*;
 
 import org.junit.After;
@@ -25,8 +25,8 @@ public class testSecretWord {
 	}
 
 	@Test
-	public void should(){
-		
+	public void testConstruct() throws Exception{
+		SecretWord s = new SecretWord(2);
 	}
 
 }
